@@ -1,3 +1,15 @@
 .index {
   color: red;
 }
+
+.tabFooter {
+  height: fit-content;
+
+}
+
+.tabFooterInner {
+  position: fixed;
+  padding-bottom: 60px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 60px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+}
